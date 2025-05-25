@@ -15,3 +15,6 @@ Built using **HTML5**, **CSS3**, and **JavaScript (ES6+)**, with performance enh
 - **Delete Task**: Remove individual tasks easily.
 - **Search Tasks**: Live-filter your tasks using the search bar (debounced for performance).
 - **Persistent Storage**: All tasks are saved using `localStorage`, so they remain even after refreshing the page.
+
+
+Deployed link - https://tourmaline-beijinho-a6a99a.netlify.app/
