@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Daily Planner</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>My Daily Planner</h1>
+    </header>
+    <main>
+     
+        <div class="add-task">
+          <input
+            type="text"
+            id="task-input"
+            placeholder="Enter a new task..."
+          />
+
+          <button id="add-task">Add</button>
+        </div>
+        <div class="search">
+          <input type="text" id="search" placeholder="Search tasks..." />
+        </div>
+
+        <div class="task-list" id="task-list"></div>
+
+        <button id="clear-all">Clear All Tasks</button>
+        <button id="back-to-top" title="Back to Top">⬆</button>
+     
+    </main>
+  </body>
+</html>
+<script type="module" src="./components/main.js"></script>
